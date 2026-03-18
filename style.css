@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+	background-color: #111111;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	text-align: center;
+	padding-top: 30px;
+}
+
+h1 {
+	color: #b11226;
+	font-family: 'Oswald', sans-serif;
+	font-size: 56px;
+	font-weight: 600;
+	background-color: #d9d9d9;
+	display: inline-block;
+	padding: 14px 40px;
+	margin: 0 auto 30px auto;
+	letter-spacing: 1px;
+}
+
+nav {
+	text-align: center;
+	margin: 20px auto 40px auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #d9d9d9;
+}
+
+nav ul li {
+	margin: 0;
+}
+
+nav ul li a {
+	display: block;
+	padding: 16px 24px;
+	color: #b11226;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	border: 2px dotted #b11226;
+	transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+nav ul li a.active {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 10px 20px 40px 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.7;
+	margin: 0 auto 24px auto;
+	text-align: left;
+}
+
+img {
+	display: block;
+	margin: 30px auto 15px auto;
+	max-width: 100%;
+	width: 320px;
+	height: auto;
+	border: 4px dotted #ffffff;
+	padding: 8px;
+	background-color: transparent;
+}
+
+iframe {
+	display: block;
+	margin: 30px auto 20px auto;
+	max-width: 100%;
+	border: none;
+}
+
+.caption {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #f0f0f0;
+}
+
+.page-links {
+	text-align: center;
+	margin: 35px 0 20px 0;
+}
+
+.page-links a {
+	display: inline-block;
+	margin: 10px;
+	padding: 12px 20px;
+	background-color: #d9d9d9;
+	color: #b11226;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	border: 2px solid #b11226;
+	transition: 0.3s ease;
+}
+
+.page-links a:hover {
+	background-color: #b11226;
+	color: #ffffff;
+}
+
+footer {
+	text-align: center;
+	padding: 25px 20px 35px 20px;
+	font-size: 16px;
+	color: #ffffff;
+}
